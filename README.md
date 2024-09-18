@@ -38,3 +38,10 @@ insert_final_newline = false
 
 ## Új komponens
 ```php artisan make:component component-name --view```
+
+# Klónozás utáni lépések
+1. `composer u`
+2. `.env` fájl létrehozása (.env.example másolása)
+3. `php artisan key:generate`
+4. `php artisan migrate`
+
